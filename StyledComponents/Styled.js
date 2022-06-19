@@ -34,7 +34,7 @@ export const NavStyle = styled.div`
       display: flex;
       align-item: center;
       justify-content: space-between;
-      padding: 0px 10px;
+      padding: 0px 15px;
       transform: translateY(10px);
       cursor: pointer;
     }
@@ -70,7 +70,7 @@ export const NavStyle = styled.div`
       top: 10;
       left: 0;
       width: 250px;
-      height: 700px;
+      height: 400px;
       z-index: 2;
       background: #333;
       transition: 0.5s ease-in;
@@ -89,7 +89,7 @@ export const NavStyle = styled.div`
 
 export const IntroStyle = styled.div`
   display: flex;
-  padding-top: 5px;
+ // padding-top: 5px;
   background: #f4f4f4;
   align-items: center;
   justify-content: space-around;
