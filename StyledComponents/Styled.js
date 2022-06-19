@@ -50,7 +50,8 @@ export const NavStyle = styled.div`
       top: 10;
       left: 0;
       width: 150px;
-      background: #333;
+      background: #fff;
+      transition: 0.5s ease-in;
       p {
         cursor: pointer;
         color: #fff;
@@ -66,17 +67,18 @@ export const NavStyle = styled.div`
       position: absolute;
       visibility: visible;
       opacity: 1;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
       transform: translate(0px, -20px);
       top: 10;
       left: 0;
       width: 150px;
-      height: 400px;
+      height: 300px;
       z-index: 2;
-      background: #333;
+      background: #fff;
       transition: 0.5s ease-in;
       p {
         cursor: pointer;
-        color: #fff;
+        color: #333;
         margin-top: 5px;
         text-align: center;
       }
@@ -89,7 +91,6 @@ export const NavStyle = styled.div`
 
 export const IntroStyle = styled.div`
   display: flex;
- // padding-top: 5px;
   background: #f4f4f4;
   align-items: center;
   justify-content: space-around;
@@ -116,19 +117,19 @@ export const IntroStyle = styled.div`
     flex-direction: column;
     img {
       margin-top: 0px;
-      width: 300px;
+      width: 310px;
       clip-path: circle();
     }
   }
 `;
 export const AboutMeStyle = styled.div`
-  padding-top: 10px;
   display: flex;
   //align-items: center;
-  margin: 0rem 1rem;
+  margin: 0px 1rem;
   justify-content: space-around;
   img {
     width: 350px;
+    clip-path: circle();
   }
   .about {
     width: 600px;
@@ -171,7 +172,8 @@ export const AchieveStyle = styled.div`
     justify-content: space-around;
     font-weight: bold;
     div {
-      background: #fff;
+      background: #f4f4f4;
+      border-bottom: 1px solid #333;
       padding: 10px;
       width: 400px;
     }
@@ -183,7 +185,7 @@ export const AchieveStyle = styled.div`
         width: 250px;
         margin-bottom: 10px;
         h1 {
-          font-size: 15px;
+          font-size: 18px;
         }
       }
     }
