@@ -66,12 +66,12 @@ export const NavStyle = styled.div`
       position: absolute;
       visibility: visible;
       opacity: 1;
-      transform: translate(1px, -20px);
+      transform: translate(0px, -20px);
       top: 10;
       left: 0;
-      width: 300px;
-      height: 400px;
-      z-index:2;
+      width: 250px;
+      height: 700px;
+      z-index: 2;
       background: #333;
       transition: 0.5s ease-in;
       p {
@@ -90,7 +90,7 @@ export const NavStyle = styled.div`
 export const IntroStyle = styled.div`
   display: flex;
   padding-top: 5px;
-  background:#f4f4f4;
+  background: #f4f4f4;
   align-items: center;
   justify-content: space-around;
   h1 {
@@ -126,7 +126,7 @@ export const AboutMeStyle = styled.div`
   padding-top: 10px;
   display: flex;
   //align-items: center;
-  margin: 4rem 1rem;
+  margin: 0rem 1rem;
   justify-content: space-around;
   img {
     width: 350px;
@@ -181,9 +181,11 @@ export const AchieveStyle = styled.div`
     .achieve {
       flex-direction: column;
       div {
-        font-size: 15px;
-        width: 200px;
-        margin-bottom: 5px;
+        width: 250px;
+        margin-bottom: 10px;
+        h1 {
+          font-size: 15px;
+        }
       }
     }
   }
