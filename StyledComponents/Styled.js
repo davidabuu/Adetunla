@@ -49,7 +49,7 @@ export const NavStyle = styled.div`
       transform: translate(-40px, -20px);
       top: 10;
       left: 0;
-      width: 200px;
+      width: 150px;
       background: #333;
       p {
         cursor: pointer;
@@ -69,7 +69,7 @@ export const NavStyle = styled.div`
       transform: translate(0px, -20px);
       top: 10;
       left: 0;
-      width: 250px;
+      width: 150px;
       height: 400px;
       z-index: 2;
       background: #333;
@@ -122,7 +122,6 @@ export const IntroStyle = styled.div`
   }
 `;
 export const AboutMeStyle = styled.div`
-  //border-top: #fff 5px solid;
   padding-top: 10px;
   display: flex;
   //align-items: center;
