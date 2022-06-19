@@ -7,7 +7,7 @@ const Achievments = () => {
     Aos.init();
   }, []);
   return (
-    <div>
+    <div id='rewards'>
       <AchieveStyle data-aos='fade-left'>
         <h2 className='h2'>ACHIEVEVMENTS</h2>
         <div className='achieve'>

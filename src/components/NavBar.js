@@ -17,26 +17,22 @@ const NavBar = () => {
         </div>
       </div>
       <div className={`${nav ? 'div': 'hide'}`}>
-        <Link href='/'>
           <a>
             <p>Home</p>
           </a>
-        </Link>
           <a href='#about'>
             <p>About Me</p>
           </a>
-        <Link href='/'>
           <a>
             <p>CV</p>
           </a>
-        </Link>
         <Link href='/'>
-          <a>
-            <p>Gallery</p>
+          <a href='#reward'>
+            <p>Achievments</p>
           </a>
         </Link>
         <Link href='/'>
-          <a>
+          <a href='#contacts'>
             <p>Contact</p>
           </a>
         </Link>

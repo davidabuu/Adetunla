@@ -13,6 +13,7 @@ const HomePage = () => {
       <NavBar />
       <Intro />
       <AboutMe />
+      <Achievments />
       <Footer />
     </UserWebLayout>
   );

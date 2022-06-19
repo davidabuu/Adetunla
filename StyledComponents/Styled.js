@@ -174,6 +174,11 @@ export const AchieveStyle = styled.div`
       width: 400px;
     }
   }
+  @media(max-width:700px){
+    .achieve{
+      flex-direction:column;
+    }
+  }
 `;
 
 export const FooterStyle = styled.div`

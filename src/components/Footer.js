@@ -5,7 +5,7 @@ import { Facebook, Twitter, Instagram, Email, Phone } from '@material-ui/icons';
 const Footer = () => {
   return (
     <FooterStyle>
-      <ul>
+      <ul id='contact'>
         <Link href='/'>
           <a>
             <Email />
