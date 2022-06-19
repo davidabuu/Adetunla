@@ -9,7 +9,7 @@ const AboutMe = () => {
   }, []);
   return (
     <div id='about'>
-      <AboutMeStyle data-aos='fade-right'>
+      <AboutMeStyle data-aos='fade-in'>
         <img src='./img2.jpg' alt='Img2' />
         <div className='about' id='aboutkk'>
           <h1>ABOUT ME</h1>

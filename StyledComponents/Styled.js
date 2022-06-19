@@ -46,7 +46,7 @@ export const NavStyle = styled.div`
       position: absolute;
       visibiliy: hidden;
       opacity: 0;
-      transform: translate(1px, -20px);
+      transform: translate(-40px, -20px);
       top: 10;
       left: 0;
       width: 200px;
@@ -69,7 +69,9 @@ export const NavStyle = styled.div`
       transform: translate(1px, -20px);
       top: 10;
       left: 0;
-      width: 200px;
+      width: 300px;
+      height: 400px;
+      z-index:2;
       background: #333;
       transition: 0.5s ease-in;
       p {
@@ -174,9 +176,14 @@ export const AchieveStyle = styled.div`
       width: 400px;
     }
   }
-  @media(max-width:700px){
-    .achieve{
-      flex-direction:column;
+  @media (max-width: 700px) {
+    .achieve {
+      flex-direction: column;
+      div {
+        font-size: 15px;
+        width: 200px;
+        margin-bottom: 5px;
+      }
     }
   }
 `;
