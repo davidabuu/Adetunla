@@ -18,11 +18,7 @@ const AboutMe = () => {
             Engineering Science from the University of Johannesburg, South
             Africa in 2019. He is currently a Senior Research Associate at the
             University of Johannesburg, South Africa and Senior Lecturer at Afe
-            Babalola University, Ekiti, Nigeria.
-          </p>
-          <p>
-            {' '}
-            Adedotun is mostly interested in Automation, Robotics, Additive
+            Babalola University, Ekiti, Nigeria. Adedotun is mostly interested in Automation, Robotics, Additive
             Manufacturing, Finite Element Analysis, Materials Science, and Cloud
             Manufacturing.
           </p>
