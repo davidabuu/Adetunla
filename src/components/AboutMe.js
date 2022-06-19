@@ -2,15 +2,16 @@ import React, { useEffect } from 'react';
 import { AboutMeStyle } from '../../StyledComponents/Styled';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Button } from 'antd';
 const AboutMe = () => {
   useEffect(() => {
     Aos.init();
   }, []);
   return (
-    <div>
+    <div id='#about'>
       <AboutMeStyle data-aos='fade-right'>
         <img src='./img2.jpg' />
-        <div className='about'>
+        <div className='about' id='#about'>
           <h1>ABOUT ME</h1>
           <p>
             Engr. (Dr.) Adedotun Adetunla holds a Ph.D. in Mechanical
@@ -25,7 +26,7 @@ const AboutMe = () => {
             Manufacturing, Finite Element Analysis, Materials Science, and Cloud
             Manufacturing.
           </p>
-          <button>Learn More</button>
+          <Button type='primary'>Download CV</Button>
         </div>
       </AboutMeStyle>
     </div>

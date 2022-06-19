@@ -1,5 +1,5 @@
 export default {
-    titleTemplate: 'Atovis - %s',
+    titleTemplate: 'Dotman - %s',
     additionalMetaTags: [
         {
             name: 'viewport',
@@ -9,11 +9,11 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        site_name: 'Atovis',
+        site_name: 'Dotman',
     },
     twitter: {
-        handle: '@Atovis',
-        site: '@Atovis.com',
+        handle: '@dotmantula',
+        site: '@dotman.com',
         cardType: 'summary_large_image',
     },
 };

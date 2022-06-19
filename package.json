@@ -1,6 +1,6 @@
 {
   "name": "dot-man",
-  "version": "0.1.0",
+  "version": "0.1.0",  
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "antd": "^4.21.3",
     "aos": "^2.3.4",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "next": "12.1.6",
     "next-seo": "^4.26.0",
     "react": "18.2.0",

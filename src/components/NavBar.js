@@ -1,38 +1,48 @@
-import React from 'react'
-import Link from 'next/link'
-import { NavStyle } from '../../StyledComponents/Styled'
+import React, {useState} from 'react';
+import Link from 'next/link';
+import { NavStyle } from '../../StyledComponents/Styled';
+import { Menu } from '@material-ui/icons';
+//import { Menu } from 'antd'
 const NavBar = () => {
+  const [nav, setNav] = useState(false);
+  // const HideNav = () => {
+  //   setNav(!nav);
+  // }
   return (
     <NavStyle>
-        <ul>
-            <Link href='/'>
-            <a>
-            <li>Home</li>
-            </a>
-            </Link>
-            <Link href='/'>
-            <a>
-            <li>About Me</li>
-            </a>
-            </Link>
-            <Link href='/'>
-            <a>
-            <li>CV</li>
-            </a>
-            </Link>
-            <Link href='/'>
-            <a>
-            <li>Gallery</li>
-            </a>
-            </Link>
-            <Link href='/'>
-            <a>
-            <li>Contact</li>
-            </a>
-            </Link>
-        </ul>
+      <div className='menu'>
+        <div className='men'  onClick={() => setNav(!nav) }>
+        <Menu style={{fontSize:'30px'}}  />
+        <h1>DOTMAN</h1>
+        </div>
+      </div>
+      <div className={`${nav ? 'div': 'hide'}`}>
+        <Link href='/'>
+          <a>
+            <p>Home</p>
+          </a>
+        </Link>
+          <a href='#about'>
+            <p>About Me</p>
+          </a>
+        <Link href='/'>
+          <a>
+            <p>CV</p>
+          </a>
+        </Link>
+        <Link href='/'>
+          <a>
+            <p>Gallery</p>
+          </a>
+        </Link>
+        <Link href='/'>
+          <a>
+            <p>Contact</p>
+          </a>
+        </Link>
+      </div>
     </NavStyle>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
