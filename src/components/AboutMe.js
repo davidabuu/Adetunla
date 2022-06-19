@@ -8,10 +8,10 @@ const AboutMe = () => {
     Aos.init();
   }, []);
   return (
-    <div id='#about'>
+    <div id='about'>
       <AboutMeStyle data-aos='fade-right'>
         <img src='./img2.jpg' alt='Img2' />
-        <div className='about' id='about'>
+        <div className='about' id='aboutkk'>
           <h1>ABOUT ME</h1>
           <p>
             Engr. (Dr.) Adedotun Adetunla holds a Ph.D. in Mechanical

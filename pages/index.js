@@ -1,21 +1,23 @@
+import Head from 'next/head';
 import React from 'react';
 import AboutMe from '../src/components/AboutMe';
 import Achievments from '../src/components/Achievments';
 import Footer from '../src/components/Footer';
 import Intro from '../src/components/Intro';
 import NavBar from '../src/components/NavBar';
-import UserWebLayout from '../src/components/UserWebLayout';
-import { FooterStyle, IntroStyle } from '../StyledComponents/Styled';
 
 const HomePage = () => {
   return (
-    <UserWebLayout webtitle={'Home Page'}>
+    <div>
+      <Head>
+        <title> Home Page | Dotman</title>
+      </Head>
       <NavBar />
       <Intro />
       <AboutMe />
       <Achievments />
       <Footer />
-    </UserWebLayout>
+    </div>
   );
 };
 
