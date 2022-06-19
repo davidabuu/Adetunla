@@ -90,6 +90,7 @@ export const NavStyle = styled.div`
 export const IntroStyle = styled.div`
   display: flex;
   padding-top: 5px;
+  background:#f4f4f4;
   align-items: center;
   justify-content: space-around;
   h1 {
