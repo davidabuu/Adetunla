@@ -44,7 +44,22 @@ export default function SwiperGallery() {
        <div>
        <SwiperSlide>
         <img src="/img5.jpg"  className='swip' />
-        </SwiperSlide>s
+        </SwiperSlide>
+       </div>
+       <div>
+       <SwiperSlide>
+        <img src="/img8.jpg"  className='swip' />
+        </SwiperSlide>
+       </div>
+       <div>
+       <SwiperSlide>
+        <img src="/img9.jpg"  className='swip' />
+        </SwiperSlide>
+       </div>
+       <div>
+       <SwiperSlide>
+        <img src="/img10.jpg"  className='swip' />
+        </SwiperSlide>
        </div>
       </Swiper>
     </>

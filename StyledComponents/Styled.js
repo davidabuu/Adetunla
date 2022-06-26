@@ -5,6 +5,13 @@ export const NavStyle = styled.div`
   border-bottom: #333 1px solid;
   .menu {
     display: none;
+    h1 {
+      color: #1890ff;
+      font-weight: bold;
+    }
+  }
+  a {
+    font-weight: bold;
   }
   .div,
   .hide {
@@ -16,19 +23,20 @@ export const NavStyle = styled.div`
   li {
     list-style: none;
     margin-right: 10px;
+    color: #1890ff;
   }
   .line {
     display: none;
   }
   a {
-    color: #000;
+    color: #1890ff;
     font-weight: bold;
     text-transform: uppercase;
   }
   @media (max-width: 700px) {
     .menu {
       display: block;
-      color: #333;
+      color: #1890ff;
     }
     .men {
       display: flex;
@@ -95,8 +103,11 @@ export const IntroStyle = styled.div`
   align-items: center;
   justify-content: space-around;
   h1 {
-    width: 400px;
+    width: 500px;
+    font-family: 'Great Vibes', cursive;
     font-weight: bold;
+    color: #1890ff;
+    font-size: 50px;
   }
   img {
     margin-top: 50px;
@@ -113,25 +124,30 @@ export const IntroStyle = styled.div`
     h1 {
       width: 350px;
       margin-top: 40px;
+      font-size: 50px;
       text-align: center;
     }
     flex-direction: column;
     img {
       margin-top: 0px;
-      width: 350px;
+      width: 300px;
       border-radius: 50%;
-      height: 350px;
+      height: 300px;
     }
   }
 `;
 export const AboutMeStyle = styled.div`
+  border-top: 1px solid #333;
   display: flex;
-  //align-items: center;
-  margin: 0px 1rem;
+  margin-top: 10px;
   justify-content: space-around;
   img {
     width: 350px;
     clip-path: circle();
+  }
+  h1 {
+    color: #1890ff;
+    font-weight: bold;
   }
   .about {
     width: 600px;
@@ -166,14 +182,23 @@ export const AboutMeStyle = styled.div`
 `;
 
 export const AchieveStyle = styled.div`
+border-top: 1px solid #333;
+  margin-top: 10px;
   h2 {
     text-align: center;
+    color: #1890ff;
+    font-weight: bold;
+  }
+  h1 {
+    font-weight: bold;
+    color: #1890ff;
   }
   .achieve {
     display: flex;
+    color: #1890ff;
     align-items: center;
     text-align: center;
-    margin: 4rem 1rem;
+    margin: 1rem 1rem;
     justify-content: space-around;
     font-weight: bold;
     div {
@@ -198,6 +223,8 @@ export const AchieveStyle = styled.div`
 `;
 
 export const FooterStyle = styled.div`
+border-top: 1px solid #333;
+  margin-top: 10px;
   ul {
     background: #333;
     padding: 10px;
@@ -233,7 +260,12 @@ export const FooterStyle = styled.div`
 `;
 
 export const GalleryStyle = styled.div`
+border-top: 1px solid #333;
+
+  margin-top: 10px;
   h1 {
     text-align: center;
+    font-weight: bold;
+    color: #1890ff;
   }
 `;

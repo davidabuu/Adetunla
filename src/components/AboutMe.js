@@ -11,7 +11,7 @@ const AboutMe = () => {
     <div id='about'>
       <AboutMeStyle data-aos='fade-in'>
         <img src='./img2.jpg' alt='Img2' />
-        <div className='about' id='aboutkk'>
+        <div className='about' id='about'>
           <h1>ABOUT ME</h1>
           <p>
             Engr. (Dr.) Adedotun Adetunla holds a Ph.D. in Mechanical

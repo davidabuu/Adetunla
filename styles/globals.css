@@ -1,10 +1,12 @@
 @import '~antd/dist/antd.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  color: #1890ff !important;
   background-color: #f4f4f4;
 }
 
@@ -23,7 +25,7 @@ body {
 }
 .swiper {
   width: 100%;
-  height: 100%;
+  height:500px !important;
 }
 
 .swiper-slide {
@@ -31,6 +33,7 @@ body {
   font-size: 18px;
   z-index:-1;
   background: #f4f4f4;
+  height: 80% !important;
   margin-top: 0px !important;
   /* Center slide text vertically */
   display: -webkit-box;
@@ -51,6 +54,9 @@ body {
   display: block;
   object-fit: cover;
 }
+.swiper-pagination{
+  height: 70px !important;
+}
 .swiper-pagination-bullet {
   background: blue !important;
   opacity: 5 !important;
@@ -60,5 +66,13 @@ body {
 
 }
 @media(max-width:600px){
+  .swip{
   width: 300px !important;
+}
+.swiper-slide{
+  height: 60% !important;
+}
+.swiper-pagination{
+  height:30% !important;
+}
 }
