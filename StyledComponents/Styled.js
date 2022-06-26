@@ -95,13 +95,14 @@ export const IntroStyle = styled.div`
   align-items: center;
   justify-content: space-around;
   h1 {
-    width: 300px;
+    width: 400px;
     font-weight: bold;
   }
   img {
     margin-top: 50px;
     width: 400px;
     border-radius: 50%;
+    height: 440px;
   }
   @media (max-width: 900px) {
     img {
@@ -117,8 +118,9 @@ export const IntroStyle = styled.div`
     flex-direction: column;
     img {
       margin-top: 0px;
-      width: 310px;
-      clip-path: circle();
+      width: 350px;
+      border-radius: 50%;
+      height: 350px;
     }
   }
 `;
@@ -164,6 +166,9 @@ export const AboutMeStyle = styled.div`
 `;
 
 export const AchieveStyle = styled.div`
+  h2 {
+    text-align: center;
+  }
   .achieve {
     display: flex;
     align-items: center;
@@ -224,5 +229,11 @@ export const FooterStyle = styled.div`
         width: 100%;
       }
     }
+  }
+`;
+
+export const GalleryStyle = styled.div`
+  h1 {
+    text-align: center;
   }
 `;

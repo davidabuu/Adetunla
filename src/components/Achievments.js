@@ -9,8 +9,8 @@ const Achievments = () => {
   return (
     <div id='rewards'>
       <AchieveStyle data-aos='fade-in'>
+      <h2 className='h2'>ACHIEVEVMENTS</h2>
         <div className='achieve'>
-          <h2 className='h2'>ACHIEVEVMENTS</h2>
           <div>
             <h1>Scholarships & Bursaries</h1>
             <h1>2</h1>

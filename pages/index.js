@@ -3,6 +3,7 @@ import React from 'react';
 import AboutMe from '../src/components/AboutMe';
 import Achievments from '../src/components/Achievments';
 import Footer from '../src/components/Footer';
+import Gallery from '../src/components/Gallery';
 import Intro from '../src/components/Intro';
 import NavBar from '../src/components/NavBar';
 
@@ -15,6 +16,7 @@ const HomePage = () => {
       <NavBar />
       <Intro />
       <AboutMe />
+      <Gallery />
       <Achievments />
       <Footer />
     </div>
