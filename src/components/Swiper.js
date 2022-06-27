@@ -28,22 +28,22 @@ export default function SwiperGallery() {
       >
        <div>
        <SwiperSlide>
-        <img src="/img5.jpg"  className='swip' />
+        <img src="/img5.jpg"  className='swip' alt='Swip' />
         </SwiperSlide>
        </div>
        <div>
        <SwiperSlide>
-        <img src="/img8.jpg"  className='swip' />
+        <img src="/img8.jpg"  className='swip' alt='Swip' />
         </SwiperSlide>
        </div>
        <div>
        <SwiperSlide>
-        <img src="/img9.jpg"  className='swip' />
+        <img src="/img9.jpg"  className='swip' alt='Swip' />
         </SwiperSlide>
        </div>
        <div>
        <SwiperSlide>
-        <img src="/img10.jpg"  className='swip' />
+        <img src="/img10.jpg"  className='swip'  alt='Swip'/>
         </SwiperSlide>
        </div>
       </Swiper>
