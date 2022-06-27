@@ -67,7 +67,7 @@ body {
 }
 @media(max-width:600px){
   .swip{
-  width: 300px !important;
+  width: 350px !important;
 }
 .swiper-slide{
   height: 60% !important;

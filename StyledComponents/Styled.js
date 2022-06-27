@@ -7,6 +7,7 @@ export const NavStyle = styled.div`
     display: none;
     h1 {
       color: #1890ff;
+      font-family: 'Great Vibes', cursive;
       font-weight: bold;
     }
   }
@@ -104,10 +105,9 @@ export const IntroStyle = styled.div`
   justify-content: space-around;
   h1 {
     width: 500px;
-    font-family: 'Great Vibes', cursive;
     font-weight: bold;
     color: #1890ff;
-    font-size: 50px;
+    font-size: 20px;
   }
   img {
     margin-top: 50px;
@@ -124,7 +124,7 @@ export const IntroStyle = styled.div`
     h1 {
       width: 350px;
       margin-top: 40px;
-      font-size: 50px;
+      font-size: 20px;
       text-align: center;
     }
     flex-direction: column;
