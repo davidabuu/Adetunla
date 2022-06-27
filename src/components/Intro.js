@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <IntroStyle>
       <h1>Dr. Adedotun Adetunla</h1>
-      <p>"Automation, Robotics & Addictive Manufacturing"</p>
+      <p>&quot;Automation, Robotics & Addictive Manufacturing&quot;</p>
       <img src='./img1.jpg' alt='Img' />
     </IntroStyle>
   );
